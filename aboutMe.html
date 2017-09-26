@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About</title>
+        <!-- phont link and original css -->
+        <link href="aboutMe.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    </head>
+    <body>
+
+        <div id="sticky_header">
+            <img class="barPhoto" src="./images_aboutMe/stickyHeaderPhoto.png">
+            <p class="headerContent">About<br/>
+                <span class="headerSmall">A brief history of who I am</span></p>
+        </div>
+        <div class="webLogoBar">
+            <img class="logoImage" src = "./images_aboutMe/webLogoName.png">
+        </div>
+        <div class="naviBox">
+        <ul class="navicons" style="list-style:none">
+            <li>Home</li>
+            <li>About</li>
+            <li>Portfolio</li>
+            <li class="lastNavicon">Contact</li>
+        </ul>
+        </div>
+
+        <div id="pageContents">
+            <h1>Story</h1>
+                <p>I'm Midori Funaki. Midori means green. You might think of Midori melon liqueur but I'm not a hard drinker at all.
+                    My friends call me "midori" or "green".
+                    My background is a sales in animal feed and hotel industries.
+                    I started to have interest in IT when I was living in Singapore for work.
+                    Singapore has a policy called Smart Nation which support better living using technolgy.
+                    This policy made me aware of tech-enabled solutions.
+                    Thanks to this experience, I started to self-study codings on code.org.
+                </p>
+                <section class="introSummary">
+                    <img class="introPhoto" src="./images_aboutMe/introPhoto.png">
+                    <h3>[Background]</h3>
+                        <p>Sales in animal feed industry / 
+                            Hotel staff at ski resort hotel / 
+                            Sales in hotel industry / 
+                            Purchase assistant at a food & beverage distributor
+                        </p>
+                    <h3>[Leisure Activities]</h3>
+                        <p>Pet sitting, reading books, abacus, massage</p>
+                    <h3>[Favorite Books]</h3>
+                        <li style="list-style: none">Momo (Michael Ende)</li>
+                        <li style="list-style: none">The Singular Impact of Exascale Computing on Us (Motoaki Saito)</li>
+                        <li style="list-style: none">The Memory Book (Harry Lorayne, Jerry Lucas)</li>
+                        </p>
+                    <h3>[Languages]</h3>
+                        <p>Japanese, English</p>
+                </section>
+            <h1>Photo Album</h1>
+        
+            <!-- photo gallery -->
+            <div class="row galleryImage">
+                <div class="col-md-4 mainGallery">
+                    <img src="./images_aboutMe/2010uniGrad.jpg" onclick="openModal();activeSlide(1)" alt="image1">
+                </div> <!-- /.col -->
+                <div class="col-md-4 mainGallery">
+                    <img src="./images_aboutMe/2011feedingFish.jpg" onclick="openModal();activeSlide(2)" alt="image2">
+                </div> <!-- /.col -->
+                <div class="col-md-4 mainGallery">
+                    <img src="./images_aboutMe/2011weightingFish.jpg" onclick="openModal();activeSlide(3)" alt="image3">
+                </div> <!-- /. col -->
+            </div>
+            <div class="row galleryImage">
+                <div class="col-md-4 mainGallery">
+                    <img src="./images_aboutMe/2015hotelStaff.jpg" onclick="openModal();activeSlide(4)" alt="image4">
+                </div><!-- /. col -->
+                <div class="col-md-4 mainGallery">
+                    <img src="./images_aboutMe/2015singapore.jpg" onclick="openModal();activeSlide(5)" alt="image5">
+                </div><!-- /. col -->
+                <div class="col-md-4 mainGallery">
+                    <img src="./images_aboutMe/2009massageTeacher.jpg" onclick="openModal();activeSlide(6)" alt="image6">
+                </div><!-- /. col -->
+            </div>
+            <div class="row galleryImage">
+                <div class="col-md-4 mainGallery">
+                    <img src="./images_aboutMe/2011withBronSis.jpg" onclick="openModal();activeSlide(7)" alt="image7">
+                </div><!-- /. col -->
+                <div class="col-md-4 mainGallery">
+                    <img src="./images_aboutMe/2011withCapybarra.jpg" onclick="openModal();activeSlide(8)" alt="image8">
+                </div><!-- /. col -->
+                <div class="col-md-4 mainGallery">
+                    <img src="./images_aboutMe/2016miniSushi.jpg" onclick="openModal();activeSlide(9)" alt="image9">
+                </div><!-- /. col -->
+            </div>
+        </div>
+
+        <!-- carousel modal -->
+        <div id="photoModal" class="modal">
+            <!-- close button -->
+            <span class="closeButton" onclick="closeModal()">&times;</span></button>
+            <!-- photo contents -->
+            <div class="modal-content">
+                <!-- set slides -->
+                <div class="photoSlides">
+                    <div class="slideNumber">1/9</div>
+                    <img src="./images_aboutMe/2010uniGrad.jpg">
+                </div>
+                <div class="photoSlides">
+                    <div class="slideNumber">2/9</div>
+                    <img src="./images_aboutMe/2011feedingFish.jpg">
+                </div>
+                <div class="photoSlides">
+                    <div class="slideNumber">3/9</div>
+                    <img src="./images_aboutMe/2011weightingFish.jpg">
+                </div>
+                <div class="photoSlides">
+                    <div class="slideNumber">4/9</div>
+                    <img src="./images_aboutMe/2015hotelStaff.jpg">
+                </div>
+                <div class="photoSlides">
+                    <div class="slideNumber">5/9</div>
+                    <img src="./images_aboutMe/2015singapore.jpg">
+                </div>
+                <div class="photoSlides">
+                    <div class="slideNumber">6/9</div>
+                    <img src="./images_aboutMe/2009massageTeacher.jpg">
+                </div>
+                <div class="photoSlides">
+                    <div class="slideNumber">7/9</div>
+                    <img src="./images_aboutMe/2011withBronSis.jpg">
+                </div>
+                <div class="photoSlides">
+                    <div class="slideNumber">8/9</div>
+                    <img src="./images_aboutMe/2011withCapybarra.jpg">
+                </div>
+                <div class="photoSlides">
+                    <div class="slideNumber">9/9</div>
+                    <img src="./images_aboutMe/2016miniSushi.jpg">
+                </div>
+            
+                
+                <!-- go back button -->
+                <a class="back" onclick="changeSlide(-1)">&#8249;</a>
+                <!-- next button -->
+                <a class="next" onclick="changeSlide(1)">&#8250;</a>
+
+                <!-- captaion -->
+                <div class="caption-container">
+                    <p id="caption"></p>
+                </div>
+
+                <!-- gallery photos below carousel -->
+                <div class="column">
+                    <img class="miniGallery" src="./images_aboutMe/2010uniGrad.jpg" onclick="activeSlide(1)" alt="2010 Uni Graduation">
+                </div>
+                <div class="column">
+                    <img class="miniGallery" src="./images_aboutMe/2011feedingFish.jpg" onclick="activeSlide(2)" alt="Feed additive industry">
+                </div>
+                <div class="column">
+                    <img class="miniGallery" src="./images_aboutMe/2011weightingFish.jpg" onclick="activeSlide(3)" alt="Feed additive industry">
+                </div>
+                <div class="column">
+                    <img class="miniGallery" src="./images_aboutMe/2015hotelStaff.jpg" onclick="activeSlide(4)" alt="Ski resort hotel staff in Japan">
+                </div>
+                <div class="column">
+                    <img class="miniGallery" src="./images_aboutMe/2015singapore.jpg" onclick="activeSlide(5)" alt="Selling Japanese hotel in Singapore">
+                </div>
+                <div class="column">
+                    <img class="miniGallery" src="./images_aboutMe/2009massageTeacher.jpg" onclick="activeSlide(6)" alt="With my holistic massage teacher">
+                </div>
+                <div class="column">
+                    <img class="miniGallery" src="./images_aboutMe/2011withBronSis.jpg" onclick="activeSlide(7)" alt="Brother and Sister">
+                </div>
+                <div class="column">
+                    <img class="miniGallery" src="./images_aboutMe/2011withCapybarra.jpg" onclick="activeSlide(8)" alt="Cute capybarra">
+                </div>
+                <div class="column">
+                    <img class="miniGallery" src="./images_aboutMe/2016miniSushi.jpg" onclick="activeSlide(9)" alt="Mini sushi magnet">
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal -->
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <!-- pagination JS -->
+        <script>
+            //Open carousel modal when a gallery image is clicked
+            function openModal(){
+                document.getElementById('photoModal').style.display = "block";
+            }
+
+            function closeModal(){
+                document.getElementById('photoModal').style.display = "none";
+            }
+
+            var slideIndex = 1;
+            showSlides(slideIndex);
+
+            function changeSlide(n){
+                showSlides(slideIndex += n);
+            }
+
+            function activeSlide(n){
+                showSlides(slideIndex=n);
+            }
+
+            function showSlides(n){
+                var i;
+                var mainSlide = document.getElementsByClassName("photoSlides");
+                var miniSlide = document.getElementsByClassName("miniGallery");
+                var photoCaption = document.getElementById("caption");
+                if (n < 1){slideIndex = mainSlide.length};
+                if (n > mainSlide.length){slideIndex=1};
+                for (i=0; i < mainSlide.length; i++){
+                    mainSlide[i].style.display = "none";
+                }
+                for (i=0; i < miniSlide.length; i++){
+                    miniSlide[i].className = miniSlide[i].className.replace("active","");
+                }
+                
+                mainSlide[slideIndex-1].style.display = "block";
+                miniSlide[slideIndex-1].className += " active";
+                photoCaption.innerHTML = miniSlide[slideIndex-1].alt;
+            }
+        </script>
+    </body>
+</html>
