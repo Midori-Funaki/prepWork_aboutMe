@@ -29,9 +29,9 @@ Purchase assistant at a food & beverage distributor
 Pet sitting, reading books, abacus, massage
 
 ### Favorite Books
--Momo (Michael Ende)
--The Singular Impact of Exascale Computing on Us (Motoaki Saito)
--The Memory Book (Harry Lorayne, Jerry Lucas)
+- Momo (Michael Ende)
+- The Singular Impact of Exascale Computing on Us (Motoaki Saito)
+- The Memory Book (Harry Lorayne, Jerry Lucas)
 
 ### Languages
 Japanese, English
@@ -41,9 +41,6 @@ Japanese, English
 # Photo Album
 |![](./images_aboutMe/2010uniGrad.jpg)|![](./images_aboutMe/2011feedingFish.jpg)|![](./images_aboutMe/2011weightingFish.jpg)|
 |---|---|---|
-
 |![](./images_aboutMe/2015hotelStaff.jpg)|![](./images_aboutMe/2015singapore.jpg)|![](./images_aboutMe/2009massageTeacher.jpg)|
-|---|---|---|
-
 |![](./images_aboutMe/2011withBronSis.jpg)|![](./images_aboutMe/2011withCapybarra.jpg)|![](./images_aboutMe/2016miniSushi.jpg)|
-|---|---|---|
+
