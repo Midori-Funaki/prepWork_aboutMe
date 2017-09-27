@@ -39,8 +39,8 @@ Japanese, English
 <img src="./images_aboutMe/introPhoto.png" width="90px">
 
 # Photo Album
-|![](./images_aboutMe/2010uniGrad.jpg)|![](./images_aboutMe/2011feedingFish.jpg)|![](./images_aboutMe/2011weightingFish.jpg)|
+|![](./images_aboutMe/2010uniGrad.jpg)| ![](./images_aboutMe/2011feedingFish.jpg)|![](./images_aboutMe/2011weightingFish.jpg)|
 |---|---|---|
-|![](./images_aboutMe/2015hotelStaff.jpg)|![](./images_aboutMe/2015singapore.jpg)|![](./images_aboutMe/2009massageTeacher.jpg)|
-|![](./images_aboutMe/2011withBronSis.jpg)|![](./images_aboutMe/2011withCapybarra.jpg)|![](./images_aboutMe/2016miniSushi.jpg)|
+|![](./images_aboutMe/2015hotelStaff.jpg)| ![](./images_aboutMe/2015singapore.jpg)|![](./images_aboutMe/2009massageTeacher.jpg)|
+|![](./images_aboutMe/2011withBronSis.jpg)| ![](./images_aboutMe/2011withCapybarra.jpg)|![](./images_aboutMe/2016miniSushi.jpg)|
 
