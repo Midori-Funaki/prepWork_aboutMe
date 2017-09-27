@@ -143,15 +143,14 @@ h1{
 }
 
 .mainGallery{
-    margin-bottom: 10px;
+    display: inline-block;
 }
 
 .mainGallery > img{
     max-width: 70%;
     max-height: 150px;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
+    margin: auto;
 }
 
 .mainGallery > img:hover{
