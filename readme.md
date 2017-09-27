@@ -39,11 +39,8 @@ Japanese, English
 <img src="./images_aboutMe/introPhoto.png" width="90px">
 
 # Photo Album
-|![](./images_aboutMe/2010uniGrad.jpg)| ![](./images_aboutMe/2011feedingFish.jpg)|![](./images_aboutMe/2011weightingFish.jpg)|
-|---|---|---|
+![](./images_aboutMe/2010uniGrad.jpg) ![](./images_aboutMe/2011feedingFish.jpg) ![](./images_aboutMe/2011weightingFish.jpg)
 
-|<img src="./images_aboutMe/2015hotelStaff.jpg" max-height="50px">|<img src="./images_aboutMe/2015singapore.jpg" max-height="50px">|<img src="./images_aboutMe/2009massageTeacher.jpg" max-height="50px">|
-|---|---|---|
+<img src="./images_aboutMe/2015hotelStaff.jpg" max-height="50px"> <img src="./images_aboutMe/2015singapore.jpg" max-height="50px"> <img src="./images_aboutMe/2009massageTeacher.jpg" max-height="50px">
 
-|<img src="./images_aboutMe/2011withBronSis.jpg" max-height="50px">|<img src="./images_aboutMe/2011withCapybarra.jpg" max-height="50px">|<img src="./images_aboutMe/2016miniSushi.jpg" max-height="50px">|
-|---|---|---|
+<img src="./images_aboutMe/2011withBronSis.jpg" max-height="50px"> <img src="./images_aboutMe/2011withCapybarra.jpg" max-height="50px"> <img src="./images_aboutMe/2016miniSushi.jpg" max-height="50px">
