@@ -42,7 +42,7 @@ Japanese, English
 ![](./images_aboutMe/2010uniGrad.jpg)| ![](./images_aboutMe/2011feedingFish.jpg)| ![](./images_aboutMe/2011weightingFish.jpg)
 ---|---|---
 
-<img src="./images_aboutMe/2015hotelStaff.jpg" width="200px">| ![](./images_aboutMe/2015singapore.jpg)| <img src="./images_aboutMe/2009massageTeacher.jpg" width="200px">
+<img src="./images_aboutMe/2015hotelStaff.jpg" width="200px">| <img src="./images_aboutMe/2015singapore.jpg" width="200px">| <img src="./images_aboutMe/2009massageTeacher.jpg" width="200px">
 ---|---|---
 
 ![](./images_aboutMe/2011withBronSis.jpg)| ![](./images_aboutMe/2011withCapybarra.jpg)| ![](./images_aboutMe/2016miniSushi.jpg)
