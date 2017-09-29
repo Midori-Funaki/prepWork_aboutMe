@@ -52,7 +52,7 @@
 
 /*navagation bar*/
 .naviBox{
-    box-shadow: 0px 0.5px 5px #BDBCBC;
+    padding-bottom: 6px;
 }
 
 .navicons{
@@ -62,6 +62,7 @@
     text-align: center;
     border-top: solid rgb(235,235,235) 2px;
     border-bottom: solid rgb(235,235,235) 2px;
+    box-shadow: 0px 3px 10px #BDBCBC;
 }
 
 .navicons li{
@@ -77,13 +78,14 @@
 }
 
 /*All Contents*/
-html{
-    background-color: gray;
+#contentsFrame{
+    padding: 20px 30px;
+    background-color: white;
 }
 
 #pageContents{
-    margin: 20px 30px;
-    padding: 40px 80px;  
+    padding: 40px 80px;
+    background-color: rgb(238,239,241);  
 }
 
 h1{
@@ -129,7 +131,6 @@ h1{
 }
 
 .modal-content{
-    /*position: absolute; */
     margin: auto;
     padding: 0;
     width: 70%;
@@ -155,6 +156,10 @@ h1{
 
 .mainGallery > img:hover{
     cursor: pointer;
+}
+
+.galleryImage{
+    padding-bottom: 10px;
 }
 
 .photoSlides img{
